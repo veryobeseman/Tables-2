@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head>
+	<title>Tables</title>
+	<style>
+	
+		body {
+			background-color:      #459DA1;	
+			background-image:      url('skyhook.jpg');
+			background-repeat:     no-repeat;
+			background-size:       cover;
+			background-attachment: fixed;
+			background-position:   center;		
+		}
+		
+		div {
+			background-color: white;
+			border:			  1px solid black;
+			box-shadow:		  -20px 20px 40px black;
+			padding: 		  20px;
+			position:         absolute;
+			right:            40px;
+			top:              40px;
+			width:            400px;	
+		}
+		table, th, td {
+			border: 1px solid black; 
+			border-collapse: collapse; 
+		}
+		th, td {
+			text-align: center;
+			padding: 10px;
+		}
+		table {
+			width: 400px;
+		}
+		th {
+			background-color: black;
+			color: white;
+		}
+		td:hover {
+			background-color: purple;
+		}
+		tr:nth-child(even) {
+			background-color: #DDD;
+		}
+		tr:nth-child(odd) {
+			background-color: white;
+		}
+		
+	</style>
+	
+</head>
+
+<body> 
+
+	<div>
+		<table>
+			<tr>
+				<th>Season</th> <th>Team</th> 	<th>GP</th> 	<th>MIN</th> 	<th>FG%</th> 	<th>PPG</th> 	<th>AST</th>	<th>RB</th>		<th>BLK</th>  
+			</tr>
+			<tr>
+				<td>84-85</td> 	<td>LAL</td> 	<td>79</td> 	<td>33.3</td> 	<td>.599</td> 	<td>22.0</td> 	<td>3.2</td>	<td>7.9</td>	<td>2.1</td>
+			</tr>
+			<tr>
+				<td>85-86</td> 	<td>LAL</td> 	<td>79</td> 	<td>33.3</td> 	<td>.564</td> 	<td>23.4</td> 	<td>3.5</td>	<td>6.1</td>	<td>1.6</td>
+			</tr>
+			<tr>
+				<td>86-87</td> 	<td>LAL</td> 	<td>78</td> 	<td>31.3</td> 	<td>.564</td> 	<td>17.5</td> 	<td>2.6</td>	<td>6.7</td>	<td>1.2</td>
+			</tr>
+			<tr>
+				<td>87-88</td> 	<td>LAL</td> 	<td>80</td> 	<td>28.9</td> 	<td>.532</td> 	<td>14.6</td> 	<td>1.7</td>	<td>6.0</td>	<td>1.2</td>
+			</tr>
+		</table>
+	</div>
+
+
+</body>
+
+</html>
